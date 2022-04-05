@@ -1,0 +1,314 @@
+@keyframes heroheading
+ {
+    from{
+        font-weight: 500;  
+        color: black;
+        text-align: left;
+    }
+    to
+    {
+        font-weight: 900;
+        color:rgb(230, 7, 7);
+        text-align: center; 
+    }
+}
+
+body{
+    margin : 0%;
+    padding: 0%;
+
+}
+#section{
+    display: flex;
+    
+    height:60px;
+    width: auto;
+    margin: auto;
+    overflow: auto;
+ }
+
+ header{
+     
+     width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+ }
+ #logo{
+    height: 40px;
+    width: auto;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    margin: 6px;
+    opacity:5;
+}
+ ul{
+    
+    display: flex;
+    list-style: none;
+    
+}
+ul li{
+    margin: 5px;
+    padding: 5px;
+}
+
+ul li a{
+text-decoration: none;
+background-color:royalblue;
+border: 2px solid transparent;
+font: larger;
+font-weight: 900;
+color: cornsilk;
+border-radius: 8px;
+margin: 5px;
+padding: 5px;
+cursor: pointer;
+justify-content: center;
+transition: 0.8s ease;
+}
+ul li a:hover{
+    color: black;
+    background-color: blanchedalmond; 
+}
+ul li a:active{
+    color: blue;
+    background-color: burlywood;
+}
+ul li a:visited{
+    border-color: rgb(243, 157, 157);
+    background-color: blanchedalmond;
+}
+
+
+
+#searchbox{
+ 
+
+    float: right;
+    justify-content: flex-end;
+    margin: auto;
+   
+    
+}
+#input{
+    float: right;
+    border-radius: 5px;
+    overflow: auto;
+    justify-content: flex-end;
+}
+
+/* hero section  */
+
+.hero
+{
+    display: flex;
+    margin: 15px;
+    padding: 6px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
+
+#hero1{
+    animation-name: heroheading;
+    display: block;
+    animation-duration: 2s;
+    animation-delay: 0.6 sec;
+    animation-fill-mode: forwards;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+    width: 50vw; 
+    margin-bottom: 30px;  
+}
+
+.buttons 
+{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+font-weight: 900;
+
+}
+.buttons:hover {
+    background-color: #cbd1cc; 
+    color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+.btn {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    border: 2 px solid black;
+  }
+#heroimage
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: auto;
+    
+}
+.container-our-services{
+    display: flex;
+    margin-top: 30px;
+    margin:auto;
+    padding: 4px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+#heading-our-services{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+p{
+    text-align: center;
+}
+.headings-of-sub-services {
+    justify-content: center;
+    
+     display: flex; 
+
+}
+/* sub services mean items of our services */
+.services{
+position: relative;
+    margin: 4px;
+    padding: 5px;
+    
+    height: 200px;
+    width: 31%;
+    border: 2px solid blueviolet;
+    background-color: aqua;
+    overflow: auto;
+    /* display: flex; */
+    flex-wrap: wrap;
+   
+}
+      /* REGISTRATION FORM */
+
+      #registration-heading{
+          justify-content: center;
+          text-align: center;
+          margin-top: 80px;
+      }
+      .registration-form{
+          border: 2px solid blueviolet;
+          border-radius: 8px;
+          text-align: center;
+          font-size: larger;
+          font-family: Georgia, 'Times New Roman', Times, serif;
+          font-weight: bolder;
+          margin: auto;
+          padding: 15px;
+          width: 70vw;
+         background-color: aqua;
+         overflow: auto;
+      
+          
+      }
+      
+      /* sub entries in registration form */
+
+      .register{
+          margin: 24px;
+          padding: 6px;
+          border: 2px solid transparent;
+          
+        
+      }
+      input{
+          margin-left: 20px;
+          padding-left: 10px;
+          border-radius: 4px;
+      }
+      #education{
+        margin-left: 20px;
+        padding-left: 10px;
+        border-radius: 5px;
+      }
+      #genderselection{
+
+        margin: 18px;
+    }
+    input [type="radio"]{
+        margin-left: 35px;
+        border: 1px solid blue;
+    }
+    fieldset{
+        margin: 10px;
+        padding: 6px;
+    }
+      
+      #submit{
+        background-color:royalblue;
+        border: 2px solid transparent;
+        font: larger;
+        font-weight: 900;
+        color: cornsilk;
+        border-radius: 8px;
+        margin: 5px;
+        padding: 5px;
+        cursor: pointer;
+      
+        transition: 0.8s ease;
+      }
+
+                 /* our team */
+
+#heading_team
+{
+
+    display: flex;
+    justify-content: center;
+    
+
+}
+.team {
+
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+    margin-top:20px ;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px ;
+}
+.team_member {
+
+    border: 1px solid black;
+    width: 33%;
+    border-radius: 8px;
+    margin:10px;
+    background-color:cyan ;
+}
+/* #seo_expert
+{
+    position: relative;
+    
+    top: 50px;
+
+} */
+.team_member h3
+{
+    display: flex;
+    justify-content: center;
+}
